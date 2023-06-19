@@ -34,7 +34,6 @@ app.get('/', (req, res) => {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                min-height: 100vh;
                 padding: 2em 1em;
             }
     
@@ -147,7 +146,6 @@ app.get('/profile', (req, res) => {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                min-height: 100vh;
                 padding: 2em 1em;
             }
     
@@ -260,7 +258,6 @@ app.get('/about', (req, res) => {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                min-height: 100vh;
                 padding: 2em 1em;
             }
     
@@ -373,7 +370,6 @@ app.get('/contact', (req, res) => {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                min-height: 100vh;
                 padding: 2em 1em;
             }
     
@@ -486,7 +482,6 @@ app.get('/gallery', (req, res) => {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                min-height: 100vh;
                 padding: 2em 1em;
             }
     
