@@ -17,7 +17,7 @@ body {
     color: #fff!important;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     row-gap: 1em;
     padding: 2em 1em!important;
@@ -25,6 +25,7 @@ body {
     max-width: 320px;
     border: 1px solid #fff;
     padding-bottom: 0.1em!important;
+    height: 600px;
 }
 
 a,
@@ -120,4 +121,10 @@ td {
     font-size: 0.65em!important;
     padding: 0.65em;
     text-align: left;
+}
+
+@media only screen and (max-width: 320px){
+    body{
+        height: 650px;
+    }
 }

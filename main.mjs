@@ -24,67 +24,74 @@ app.get('/', (req, res) => {
         <!-- moment js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
         <style>
-            * {
-                font-family: "Space Mono", monospace;
-                /* font-weight: normal; */
-                font-weight: bold;
-            }
-    
-            html {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 2em 1em;
-            }
-    
-            body {
-                background-color: #212121;
-                color: #fff;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                row-gap: 2em;
-                padding: 2em 1em;
-                margin: 0em;
-                max-width: 320px;
-                border: 1px solid #fff;
-            }
-    
-            p,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                margin: 0em;
-            }
-    
-            .center {
-                width: 100%;
-                text-align: center;
-            }
-    
-            .icon {
-                font-size: 400%;
-            }
-    
-            a {
-                color: #fff;
-                text-decoration: none !important;
-            }
-    
-            row {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 0.5em;
-                column-gap: 1em;
-                width: 100%;
-                flex-wrap: wrap;
-                row-gap: 1em;
-            }
+        * {
+        font-family: "Space Mono", monospace;
+        /* font-weight: normal; */
+        font-weight: bold;
+    }
+
+    html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 1em;
+    }
+
+    body {
+        background-color: #212121;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        row-gap: 2em;
+        padding: 2em 1em;
+        margin: 0em;
+        max-width: 320px;
+        border: 1px solid #fff;
+        height: 500px;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0em;
+    }
+
+    .center {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 400%;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none !important;
+    }
+
+    row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        column-gap: 1em;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 1em;
+    }
+
+    @media only screen and (max-width: 350px){
+        body{
+            height: 600px;
+        }
+    }
         </style>
     </head>
     
@@ -136,67 +143,74 @@ app.get('/profile', (req, res) => {
         <!-- moment js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
         <style>
-            * {
-                font-family: "Space Mono", monospace;
-                /* font-weight: normal; */
-                font-weight: bold;
-            }
-    
-            html {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 2em 1em;
-            }
-    
-            body {
-                background-color: #212121;
-                color: #fff;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                row-gap: 2em;
-                padding: 2em 1em;
-                margin: 0em;
-                max-width: 320px;
-                border: 1px solid #fff;
-            }
-    
-            p,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                margin: 0em;
-            }
-    
-            .center {
-                width: 100%;
-                text-align: center;
-            }
-    
-            .icon {
-                font-size: 400%;
-            }
-    
-            a {
-                color: #fff;
-                text-decoration: none !important;
-            }
-    
-            row {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 0.5em;
-                column-gap: 1em;
-                width: 100%;
-                flex-wrap: wrap;
-                row-gap: 1em;
-            }
+        * {
+        font-family: "Space Mono", monospace;
+        /* font-weight: normal; */
+        font-weight: bold;
+    }
+
+    html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 1em;
+    }
+
+    body {
+        background-color: #212121;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        row-gap: 2em;
+        padding: 2em 1em;
+        margin: 0em;
+        max-width: 320px;
+        border: 1px solid #fff;
+        height: 500px;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0em;
+    }
+
+    .center {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 400%;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none !important;
+    }
+
+    row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        column-gap: 1em;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 1em;
+    }
+
+    @media only screen and (max-width: 350px){
+        body{
+            height: 600px;
+        }
+    }
         </style>
     </head>
     
@@ -248,67 +262,74 @@ app.get('/about', (req, res) => {
         <!-- moment js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
         <style>
-            * {
-                font-family: "Space Mono", monospace;
-                /* font-weight: normal; */
-                font-weight: bold;
-            }
-    
-            html {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 2em 1em;
-            }
-    
-            body {
-                background-color: #212121;
-                color: #fff;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                row-gap: 2em;
-                padding: 2em 1em;
-                margin: 0em;
-                max-width: 320px;
-                border: 1px solid #fff;
-            }
-    
-            p,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                margin: 0em;
-            }
-    
-            .center {
-                width: 100%;
-                text-align: center;
-            }
-    
-            .icon {
-                font-size: 400%;
-            }
-    
-            a {
-                color: #fff;
-                text-decoration: none !important;
-            }
-    
-            row {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 0.5em;
-                column-gap: 1em;
-                width: 100%;
-                flex-wrap: wrap;
-                row-gap: 1em;
-            }
+        * {
+        font-family: "Space Mono", monospace;
+        /* font-weight: normal; */
+        font-weight: bold;
+    }
+
+    html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 1em;
+    }
+
+    body {
+        background-color: #212121;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        row-gap: 2em;
+        padding: 2em 1em;
+        margin: 0em;
+        max-width: 320px;
+        border: 1px solid #fff;
+        height: 500px;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0em;
+    }
+
+    .center {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 400%;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none !important;
+    }
+
+    row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        column-gap: 1em;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 1em;
+    }
+
+    @media only screen and (max-width: 350px){
+        body{
+            height: 600px;
+        }
+    }
         </style>
     </head>
     
@@ -360,67 +381,74 @@ app.get('/contact', (req, res) => {
         <!-- moment js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
         <style>
-            * {
-                font-family: "Space Mono", monospace;
-                /* font-weight: normal; */
-                font-weight: bold;
-            }
-    
-            html {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 2em 1em;
-            }
-    
-            body {
-                background-color: #212121;
-                color: #fff;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                row-gap: 2em;
-                padding: 2em 1em;
-                margin: 0em;
-                max-width: 320px;
-                border: 1px solid #fff;
-            }
-    
-            p,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                margin: 0em;
-            }
-    
-            .center {
-                width: 100%;
-                text-align: center;
-            }
-    
-            .icon {
-                font-size: 400%;
-            }
-    
-            a {
-                color: #fff;
-                text-decoration: none !important;
-            }
-    
-            row {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 0.5em;
-                column-gap: 1em;
-                width: 100%;
-                flex-wrap: wrap;
-                row-gap: 1em;
-            }
+        * {
+        font-family: "Space Mono", monospace;
+        /* font-weight: normal; */
+        font-weight: bold;
+    }
+
+    html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 1em;
+    }
+
+    body {
+        background-color: #212121;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        row-gap: 2em;
+        padding: 2em 1em;
+        margin: 0em;
+        max-width: 320px;
+        border: 1px solid #fff;
+        height: 500px;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0em;
+    }
+
+    .center {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 400%;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none !important;
+    }
+
+    row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        column-gap: 1em;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 1em;
+    }
+
+    @media only screen and (max-width: 350px){
+        body{
+            height: 600px;
+        }
+    }
         </style>
     </head>
     
@@ -472,67 +500,74 @@ app.get('/gallery', (req, res) => {
         <!-- moment js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
         <style>
-            * {
-                font-family: "Space Mono", monospace;
-                /* font-weight: normal; */
-                font-weight: bold;
-            }
-    
-            html {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 2em 1em;
-            }
-    
-            body {
-                background-color: #212121;
-                color: #fff;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                row-gap: 2em;
-                padding: 2em 1em;
-                margin: 0em;
-                max-width: 320px;
-                border: 1px solid #fff;
-            }
-    
-            p,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                margin: 0em;
-            }
-    
-            .center {
-                width: 100%;
-                text-align: center;
-            }
-    
-            .icon {
-                font-size: 400%;
-            }
-    
-            a {
-                color: #fff;
-                text-decoration: none !important;
-            }
-    
-            row {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 0.5em;
-                column-gap: 1em;
-                width: 100%;
-                flex-wrap: wrap;
-                row-gap: 1em;
-            }
+        * {
+        font-family: "Space Mono", monospace;
+        /* font-weight: normal; */
+        font-weight: bold;
+    }
+
+    html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 1em;
+    }
+
+    body {
+        background-color: #212121;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        row-gap: 2em;
+        padding: 2em 1em;
+        margin: 0em;
+        max-width: 320px;
+        border: 1px solid #fff;
+        height: 500px;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0em;
+    }
+
+    .center {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon {
+        font-size: 400%;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none !important;
+    }
+
+    row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em;
+        column-gap: 1em;
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 1em;
+    }
+
+    @media only screen and (max-width: 350px){
+        body{
+            height: 600px;
+        }
+    }
         </style>
     </head>
     
