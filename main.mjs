@@ -49,7 +49,6 @@ app.get('/', (req, res) => {
                 margin: 0em;
                 max-width: 320px;
                 border: 1px solid #fff;
-                height: 700px;
             }
     
             p,
@@ -162,7 +161,6 @@ app.get('/profile', (req, res) => {
                 margin: 0em;
                 max-width: 320px;
                 border: 1px solid #fff;
-                height: 700px;
             }
     
             p,
@@ -275,7 +273,6 @@ app.get('/about', (req, res) => {
                 margin: 0em;
                 max-width: 320px;
                 border: 1px solid #fff;
-                height: 700px;
             }
     
             p,
@@ -388,7 +385,6 @@ app.get('/contact', (req, res) => {
                 margin: 0em;
                 max-width: 320px;
                 border: 1px solid #fff;
-                height: 700px;
             }
     
             p,
@@ -501,7 +497,6 @@ app.get('/gallery', (req, res) => {
                 margin: 0em;
                 max-width: 320px;
                 border: 1px solid #fff;
-                height: 700px;
             }
     
             p,
