@@ -222,11 +222,11 @@ app.get('/profile', (req, res) => {
         <p class="center">Thanks For Visiting Regards! Muhammad Ahad&copy;</p>
         <row>
             <a target="_blank" href="https://ahadsts9901.github.io/first-server/">Main Page | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/">Homepage | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/profile">Profile | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/about">About | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/contact">Contact | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/gallery">Gallery</a>
+            <a target="_blank" href="https://server-sts.onrender.com/">Homepage | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/profile">Profile | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/about">About | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/contact">Contact | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/gallery">Gallery</a>
         </row>
         <script>
             setInterval(() => {
@@ -341,11 +341,11 @@ app.get('/about', (req, res) => {
         <p class="center">Thanks For Visiting Regards! Muhammad Ahad&copy;</p>
         <row>
             <a target="_blank" href="https://ahadsts9901.github.io/first-server/">Main Page | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/">Homepage | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/profile">Profile | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/about">About | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/contact">Contact | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/gallery">Gallery</a>
+            <a target="_blank" href="https://server-sts.onrender.com/">Homepage | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/profile">Profile | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/about">About | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/contact">Contact | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/gallery">Gallery</a>
         </row>
         <script>
             setInterval(() => {
@@ -460,11 +460,11 @@ app.get('/contact', (req, res) => {
         <p class="center">Thanks For Visiting Regards! Muhammad Ahad&copy;</p>
         <row>
             <a target="_blank" href="https://ahadsts9901.github.io/first-server/">Main Page | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/">Homepage | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/profile">Profile | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/about">About | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/contact">Contact | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/gallery">Gallery</a>
+            <a target="_blank" href="https://server-sts.onrender.com/">Homepage | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/profile">Profile | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/about">About | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/contact">Contact | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/gallery">Gallery</a>
         </row>
         <script>
             setInterval(() => {
@@ -579,11 +579,11 @@ app.get('/gallery', (req, res) => {
         <p class="center">Thanks For Visiting Regards! Muhammad Ahad&copy;</p>
         <row>
             <a target="_blank" href="https://ahadsts9901.github.io/first-server/">Main Page | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/">Homepage | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/profile">Profile | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/about">About | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/contact">Contact | </a>
-            <a target="_blank" href="https://calm-puce-cheetah-fez.cyclic.app/gallery">Gallery</a>
+            <a target="_blank" href="https://server-sts.onrender.com/">Homepage | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/profile">Profile | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/about">About | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/contact">Contact | </a>
+            <a target="_blank" href="https://server-sts.onrender.com/gallery">Gallery</a>
         </row>
         <script>
             setInterval(() => {
